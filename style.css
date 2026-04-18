@@ -44,7 +44,7 @@ span {
 .section-label {
     font-size: 0.75rem;
     letter-spacing: 2px;
-    color: #2563eb;
+    color: #0c43ba;
     margin-bottom: 12px;
 }
 
@@ -87,7 +87,7 @@ span {
 
 /* PRIMARY BUTTON */
 .hero-btn-primary {
-    background: #2563eb;
+    background: #1347b8;
     color: #fff;
     padding: 14px 26px;
     border-radius: 12px;
@@ -221,7 +221,7 @@ span {
 
 /* SECTION */
 .problem-section {
-    padding: 80px 0;
+    padding: 80px 150px 60px 150px;
     background: #f8fafc;
 }
 
@@ -229,7 +229,7 @@ span {
     font-size: 0.75rem;
     letter-spacing: 2px;
     color: #2563eb;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .section-title {
@@ -250,23 +250,17 @@ span {
     gap: 12px;
     background: #ffffff;
     border: 1px solid #e2e8f0;
-    padding: 14px 16px;
-    border-radius: 10px;
-    margin-bottom: 12px;
+    padding: 6px 16px 12px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    font-size: 15px;
 }
 
 /* ICON IMAGE */
 .icon-svg {
-    width: 18px;
-    height: 18px;
+    width: 20px;
+    height: 20px;
     flex-shrink: 0;
-}
-
-/* ALIGNMENT FIX */
-.problem-item {
-    display: flex;
-    align-items: center;
-    gap: 12px;
 }
 
 .problem-note {
@@ -276,9 +270,11 @@ span {
 }
 
 .result-card {
+    width: 100%;
+    max-width: 550px;
     background: #ffffff;
     border: 1px solid #e2e8f0;
-    padding: 25px;
+    padding: 20px;
     border-radius: 14px;
 }
 
@@ -308,6 +304,7 @@ span {
 }
 
 .result-list li {
+    font-size: 15px;
     position: relative;
     padding-left: 18px;
     margin-bottom: 10px;
@@ -326,13 +323,14 @@ span {
 
 .result-card h5 {
     margin-top: 10px;
+    font-size: 1.17rem;
     font-weight: 600;
     color: #0f172a;
 }
 
 .result-card hr {
     margin: 15px 0;
-    border-color: #e2e8f0;
+    border-color: #b3b5b8;
 }
 
 @media (max-width: 992px) {
@@ -342,9 +340,9 @@ span {
 }
 
 /* Our approach */
-/* SECTION */
+
 .approach-section {
-    padding: 80px 0;
+    padding: 80px 150px 60px 150px;
     background: #ffffff;
 }
 
@@ -352,13 +350,14 @@ span {
 .approach-flow {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     margin-top: 40px;
     flex-wrap: wrap;
 }
 
 /* CARD */
 .approach-card {
+    width: 100%;
+    min-width: 225px;
     background: #f8fafc;
     border: 1px solid #e2e8f0;
     border-radius: 14px;
@@ -391,12 +390,13 @@ span {
 
 /* TEXT */
 .approach-card h6 {
+    font-size: smaller;
     font-weight: 600;
     color: #0f172a;
 }
 
 .approach-card p {
-    font-size: 0.85rem;
+    font-size: 0.75rem;
     color: #64748b;
 }
 
